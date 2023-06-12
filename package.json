@@ -1,18 +1,33 @@
 {
-  "name": "reservation-system-frontend",
+  "name": "frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.1",
+    "@mui/styled-engine-sc": "^5.12.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.35",
-    "@types/react": "^18.2.11",
-    "@types/react-dom": "^18.2.4",
+    "@types/node": "^16.18.24",
+    "@types/react": "^18.0.38",
+    "@types/react-dom": "^18.0.11",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "formik-material-ui": "^4.0.0-alpha.2",
+    "google-map-react": "^2.2.1",
+    "http-proxy-middleware": "^2.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
     "react-scripts": "5.0.1",
+    "styled-components": "^5.3.10",
+    "swagger-ui-react": "^4.18.3",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -39,5 +54,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "@mui/x-date-pickers": "^6.5.0",
+    "@types/leaflet": "^1.9.3",
+    "@types/swagger-ui-react": "^4.18.0",
+    "date-fns": "^2.30.0",
+    "react-datetime-picker": "^5.1.0"
+  },
+  "proxy": "http://localhost:8080"
 }
