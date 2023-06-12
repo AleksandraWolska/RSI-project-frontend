@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "homepage": "https://aleksandrawolska.github.io/RSI-project-frontend/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -64,3 +65,6 @@
   },
   "proxy": "http://localhost:8080"
 }
+
+
+
